@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './components/Home.jsx';
+import Home from './components/Home/Home.jsx';
 import Error from './components/Error.jsx';
 import Rental from './components/Dashboard/Rental.jsx';
 import { ToastContainer } from 'react-toastify';
