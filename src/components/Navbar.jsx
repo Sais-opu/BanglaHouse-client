@@ -21,7 +21,7 @@ const Navbar = () => {
 
     const links = (
         <>
-            <li><NavLink to="/" className={({ isActive }) => isActive ? " bg-cyan-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>Home</NavLink></li>
+            <li><NavLink to="/" className={({ isActive }) => isActive ? " bg-cyan-800 rounded-md text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>Home</NavLink></li>
             {/* <li><NavLink to="/marathon" className={({ isActive }) => isActive ? "bg-purple-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>Marathons</NavLink></li>
             <li><NavLink to="/AboutUsPage" className={({ isActive }) => isActive ? "bg-purple-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>About</NavLink></li> */}
             

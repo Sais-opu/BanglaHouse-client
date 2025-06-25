@@ -13,6 +13,9 @@ import { ToastContainer } from 'react-toastify';
 import AuthProvider from './components/provider/authProvider.jsx';
 import Register from './components/Register.jsx';
 import Login from './components/Login.jsx';
+import Overview from './components/dashboard/Overview.jsx';
+import AddHouse from './components/dashboard/AddHouse.jsx';
+import AllHouse from './components/dashboard/AllHouse.jsx';
 
 
 const router = createBrowserRouter([
@@ -25,9 +28,23 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />
       },
-      {
+        {
         path: "/dashboard/rental",
-        element: <Rental />
+        element: <Rental />,
+        children: [
+          {
+            path: "/dashboard/rental/overview",
+            element: <Overview></Overview>
+          },
+          {
+            path: "/dashboard/rental/add-house",
+            element: <AddHouse></AddHouse>
+          },
+          {
+            path: "/dashboard/rental/all-houses",
+            element: <AllHouse></AllHouse>
+          },
+        ]
       },
       {
         path: "/login",

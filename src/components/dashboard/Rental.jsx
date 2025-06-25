@@ -1,9 +1,14 @@
-
+// components/Dashboard/Rental.jsx
+import { Outlet } from "react-router-dom";
+import Sidebar from "./Sidebar.jsx";
 
 const Rental = () => {
     return (
-        <div>
-            
+        <div className="flex">
+            <Sidebar />
+            <div className="flex-1 p-4 bg-white min-h-screen">
+                <Outlet />
+            </div>
         </div>
     );
 };
