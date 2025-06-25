@@ -1,7 +1,7 @@
 
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../components/provider/authProvider";
-// import logo from '../../assets/logo.jpg';
+import logo from '../assets/logo.png';
 import { useContext } from "react";
 
 const Navbar = () => {
@@ -58,10 +58,10 @@ const Navbar = () => {
                     </div>
 
                     {/* Logo */}
-                    {/* <NavLink to="/" className="flex items-center gap-2 btn btn-ghost normal-case text-lg md:text-xl font-bold">
+                    <NavLink to="/" className="flex items-center gap-2 btn btn-ghost normal-case text-lg md:text-xl font-bold">
                         <img className="w-10 h-10" src={logo} alt="logo" />
-                        <p className="hidden md:block">Marathon Manage</p>
-                    </NavLink> */}
+                        <p className="hidden md:block">Bangla House</p>
+                    </NavLink>
                 </div>
 
                 {/* Desktop Menu */}

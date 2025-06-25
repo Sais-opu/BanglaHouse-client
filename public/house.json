@@ -6,7 +6,7 @@
         "avgRent": 15000,
         "population": 8900000,
         "avaiableList": 420,
-        "img": "img/dhaka1.jpg"
+        "img": "https://i.ibb.co/LhnrCyb9/dhaka1.jpg"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "avgRent": 13800,
         "population": 8700000,
         "avaiableList": 400,
-        "img": "img/dhaka2.jpg"
+        "img": "https://i.ibb.co/9kpPQknF/dhaka2.jpg"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "avgRent": 13500,
         "population": 4000000,
         "avaiableList": 250,
-        "img": "img/chattogram1.jpg"
+        "img": "https://i.ibb.co/cdGWGhG/chattogram1.jpg"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "avgRent": 12000,
         "population": 3850000,
         "avaiableList": 230,
-        "img": "img/chattogram2.jpg"
+        "img": "https://i.ibb.co/fGBxxhPq/chattogram2.jpg"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "avgRent": 9500,
         "population": 2700000,
         "avaiableList": 210,
-        "img": "img/khulna1.jpg"
+        "img": "https://i.ibb.co/vvcz6NTv/Khulna1.jpg"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "avgRent": 8700,
         "population": 2600000,
         "avaiableList": 190,
-        "img": "img/khulna2.jpg"
+        "img": "https://i.ibb.co/DH9nLVHS/Khulna2.jpg"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "avgRent": 8700,
         "population": 2200000,
         "avaiableList": 170,
-        "img": "img/rajshahi1.jpg"
+        "img": "https://i.ibb.co/7xL2G27q/Rajshahi1.jpg"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "avgRent": 7900,
         "population": 2100000,
         "avaiableList": 160,
-        "img": "img/rajshahi2.jpg"
+        "img": "https://i.ibb.co/MkG1v7w8/Rajshahi2.jpg"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "avgRent": 7600,
         "population": 1800000,
         "avaiableList": 130,
-        "img": "img/barisal1.jpg"
+        "img": "https://i.ibb.co/x8HyX2VY/barisal1.jpg"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "avgRent": 7200,
         "population": 1700000,
         "avaiableList": 120,
-        "img": "img/barisal2.jpg"
+        "img": "https://i.ibb.co/gZFPxX8Z/barisal2.jpg"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "avgRent": 9900,
         "population": 1700000,
         "avaiableList": 150,
-        "img": "img/sylhet1.jpg"
+        "img": "https://i.ibb.co/dJsHJdJf/sylhet1.jpg"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "avgRent": 8600,
         "population": 1600000,
         "avaiableList": 140,
-        "img": "img/sylhet2.jpg"
+        "img": "https://i.ibb.co/WWVLMv5z/sylhet2.jpg"
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "avgRent": 6800,
         "population": 1600000,
         "avaiableList": 100,
-        "img": "img/rangpur1.jpg"
+        "img": "https://i.ibb.co/6RD7t6LV/Rangpur1.jpg"
     },
     {
         "id": 14,
@@ -123,7 +123,7 @@
         "avgRent": 6400,
         "population": 1500000,
         "avaiableList": 90,
-        "img": "img/rangpur2.jpg"
+        "img": "https://i.ibb.co/FGSzfc9/Rangpur2.jpg"
     },
     {
         "id": 15,
@@ -132,7 +132,7 @@
         "avgRent": 8800,
         "population": 2100000,
         "avaiableList": 170,
-        "img": "img/mymensingh1.jpg"
+        "img": "https://i.ibb.co/C5drJH71/Mymensingh1.jpg"
     },
     {
         "id": 16,
@@ -141,6 +141,6 @@
         "avgRent": 7600,
         "population": 2000000,
         "avaiableList": 150,
-        "img": "img/mymensingh2.jpg"
+        "img": "https://i.ibb.co/qM7Qwr8z/Mymensingh2.jpg"
     }
 ]
