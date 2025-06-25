@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "ID": 1,
         "division": "Dhaka",
         "demandPercent": 85,
         "avgRent": 15000,
@@ -9,7 +9,7 @@
         "img": "https://i.ibb.co/LhnrCyb9/dhaka1.jpg"
     },
     {
-        "id": 2,
+        "ID": 2,
         "division": "Dhaka",
         "demandPercent": 85,
         "avgRent": 13800,
@@ -18,7 +18,7 @@
         "img": "https://i.ibb.co/9kpPQknF/dhaka2.jpg"
     },
     {
-        "id": 3,
+        "ID": 3,
         "division": "Chattogram",
         "demandPercent": 78,
         "avgRent": 13500,
@@ -27,7 +27,7 @@
         "img": "https://i.ibb.co/cdGWGhG/chattogram1.jpg"
     },
     {
-        "id": 4,
+        "ID": 4,
         "division": "Chattogram",
         "demandPercent": 78,
         "avgRent": 12000,
@@ -36,7 +36,7 @@
         "img": "https://i.ibb.co/fGBxxhPq/chattogram2.jpg"
     },
     {
-        "id": 5,
+        "ID": 5,
         "division": "Khulna",
         "demandPercent": 65,
         "avgRent": 9500,
@@ -45,7 +45,7 @@
         "img": "https://i.ibb.co/vvcz6NTv/Khulna1.jpg"
     },
     {
-        "id": 6,
+        "ID": 6,
         "division": "Khulna",
         "demandPercent": 65,
         "avgRent": 8700,
@@ -54,7 +54,7 @@
         "img": "https://i.ibb.co/DH9nLVHS/Khulna2.jpg"
     },
     {
-        "id": 7,
+        "ID": 7,
         "division": "Rajshahi",
         "demandPercent": 60,
         "avgRent": 8700,
@@ -63,7 +63,7 @@
         "img": "https://i.ibb.co/7xL2G27q/Rajshahi1.jpg"
     },
     {
-        "id": 8,
+        "ID": 8,
         "division": "Rajshahi",
         "demandPercent": 60,
         "avgRent": 7900,
@@ -72,7 +72,7 @@
         "img": "https://i.ibb.co/MkG1v7w8/Rajshahi2.jpg"
     },
     {
-        "id": 9,
+        "ID": 9,
         "division": "Barisal",
         "demandPercent": 55,
         "avgRent": 7600,
@@ -81,7 +81,7 @@
         "img": "https://i.ibb.co/x8HyX2VY/barisal1.jpg"
     },
     {
-        "id": 10,
+        "ID": 10,
         "division": "Barisal",
         "demandPercent": 55,
         "avgRent": 7200,
@@ -90,7 +90,7 @@
         "img": "https://i.ibb.co/gZFPxX8Z/barisal2.jpg"
     },
     {
-        "id": 11,
+        "ID": 11,
         "division": "Sylhet",
         "demandPercent": 62,
         "avgRent": 9900,
@@ -99,7 +99,7 @@
         "img": "https://i.ibb.co/dJsHJdJf/sylhet1.jpg"
     },
     {
-        "id": 12,
+        "ID": 12,
         "division": "Sylhet",
         "demandPercent": 62,
         "avgRent": 8600,
@@ -108,7 +108,7 @@
         "img": "https://i.ibb.co/WWVLMv5z/sylhet2.jpg"
     },
     {
-        "id": 13,
+        "ID": 13,
         "division": "Rangpur",
         "demandPercent": 50,
         "avgRent": 6800,
@@ -117,7 +117,7 @@
         "img": "https://i.ibb.co/6RD7t6LV/Rangpur1.jpg"
     },
     {
-        "id": 14,
+        "ID": 14,
         "division": "Rangpur",
         "demandPercent": 50,
         "avgRent": 6400,
@@ -126,7 +126,7 @@
         "img": "https://i.ibb.co/FGSzfc9/Rangpur2.jpg"
     },
     {
-        "id": 15,
+        "ID": 15,
         "division": "Mymensingh",
         "demandPercent": 58,
         "avgRent": 8800,
@@ -135,7 +135,7 @@
         "img": "https://i.ibb.co/C5drJH71/Mymensingh1.jpg"
     },
     {
-        "id": 16,
+        "ID": 16,
         "division": "Mymensingh",
         "demandPercent": 58,
         "avgRent": 7600,

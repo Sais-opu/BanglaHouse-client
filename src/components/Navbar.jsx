@@ -7,29 +7,14 @@ import { useContext } from "react";
 const Navbar = () => {
     const { user, signOutUser } = useContext(AuthContext);
 
-    // // Get theme from localStorage or default to light
-    // const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
-
-    // useEffect(() => {
-    //     document.documentElement.setAttribute("data-theme", theme);
-    //     localStorage.setItem("theme", theme);
-    // }, [theme]);
-
-    // const toggleTheme = () => {
-    //     setTheme(theme === "light" ? "dark" : "light");
-    // };
 
     const links = (
         <>
             <li><NavLink to="/" className={({ isActive }) => isActive ? " bg-cyan-800 rounded-md text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>Home</NavLink></li>
-            {/* <li><NavLink to="/marathon" className={({ isActive }) => isActive ? "bg-purple-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>Marathons</NavLink></li>
-            <li><NavLink to="/AboutUsPage" className={({ isActive }) => isActive ? "bg-purple-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>About</NavLink></li> */}
-            
+
             {user && user.displayName && (
                 <>
                     <li><NavLink to="/dashboard/rental" className={({ isActive }) => isActive ? "bg-teal-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>Rental</NavLink></li>
-                    {/* <li><NavLink to="/dashboard/marathonlist" className={({ isActive }) => isActive ? "bg-purple-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>My Marathons List</NavLink></li>
-                    <li><NavLink to="/dashboard/applylist" className={({ isActive }) => isActive ? "bg-purple-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>My Apply List</NavLink></li> */}
                 </>
             )}
         </>

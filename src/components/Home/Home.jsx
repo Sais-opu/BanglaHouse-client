@@ -63,7 +63,7 @@ const Home = () => {
             {/* Image slider BELOW banner, with title + description */}
             <div className="bg-gray-100 p-6">
                 <div className="mb-6 text-center">
-                    <h2 className="text-3xl font-semibold mb-2">Division-wise House Images</h2>
+                    <h2 className="text-3xl font-semibold mb-2">Check your favourite house</h2>
                     <p className="text-gray-700 max-w-xl mx-auto">
                         Visual representation of house demands and listings across different divisions of Bangladesh.
                     </p>

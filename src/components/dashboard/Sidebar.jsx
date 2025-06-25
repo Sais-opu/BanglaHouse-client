@@ -9,7 +9,6 @@ const Sidebar = () => {
 
     return (
         <div className="w-64 h-screen bg-gray-100 p-4 shadow-md">
-            {/* <h2 className="text-2xl font-bold mb-6">Rental Dashboard</h2> */}
             <nav className="flex flex-col gap-2">
                 <NavLink to="/dashboard/rental/add-house" className={navLinkStyle}>Add House</NavLink>
                 <NavLink to="/dashboard/rental/all-houses" className={navLinkStyle}>All Houses</NavLink>

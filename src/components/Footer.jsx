@@ -42,7 +42,7 @@ const Footer = () => {
 
                 {/* Footer Text */}
                 <aside className="text-center mt-6">
-                    <p>Copyright © {new Date().getFullYear()} - All rights reserved by TaskOverFlow Ltd</p>
+                    <p>Copyright © {new Date().getFullYear()} - All rights reserved by Bangla House Ltd</p>
                 </aside>
             </footer>
         </div>
