@@ -31,7 +31,7 @@ const AnimationRow = ({ imgs, direction = "left" }) => {
                         key={i}
                         src={src}
                         alt={`img-${i}`}
-                        className="w-40 h-28 object-cover rounded-lg"
+                        className="w-60 h-35 object-cover rounded-lg"
                     />
                 ))}
             </div>

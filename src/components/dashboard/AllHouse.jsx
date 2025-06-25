@@ -10,7 +10,7 @@ const AllHouse = () => {
 
     const fetchHouses = () => {
         setLoading(true);
-        fetch("http://localhost:5000/house")
+        fetch("https://bangla-house-server-7mqbsvr0f-md-saidul-islam-apus-projects.vercel.app/house")
             .then((res) => res.json())
             .then((data) => {
                 setHouses(data);
@@ -27,7 +27,7 @@ const AllHouse = () => {
     }, []);
 
     const handleDelete = (id) => {
-        return fetch(`http://localhost:5000/house/${id}`, {
+        return fetch(`https://bangla-house-server-7mqbsvr0f-md-saidul-islam-apus-projects.vercel.app/house/${id}`, {
             method: "DELETE",
         })
             .then((res) => res.json())
@@ -52,7 +52,7 @@ const AllHouse = () => {
     };
 
     const handleUpdate = (updatedHouse) => {
-        return fetch(`http://localhost:5000/house/${updatedHouse._id}`, {
+        return fetch(`https://bangla-house-server-7mqbsvr0f-md-saidul-islam-apus-projects.vercel.app/house/${updatedHouse._id}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updatedHouse),
