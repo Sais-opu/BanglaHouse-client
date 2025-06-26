@@ -1,12 +1,74 @@
-# React + Vite
+# 🏠 Bangla House - Division-Wise House Demand Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot](https://i.ibb.co/XZV9kmPS/Screenshot-2025-06-26-210240.png)
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Bangla House** is a full-stack real estate visualization platform that displays housing demand statistics across various divisions of Bangladesh. It allows users to interact with mock data visualizations including demand percentages, rent averages, and listings versus population charts.
 
-## Expanding the ESLint configuration
+🔗 **Live Site:** [https://banglarent-b3f2d.web.app/](https://banglarent-b3f2d.web.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔍 Niche
+
+**Real Estate Visualization** – Designed to help individuals or organizations explore and understand regional rental demand dynamics in Bangladesh.
+
+---
+
+## 🎯 Key Features
+
+- ✅ Division-wise selector dropdown  
+- ✅ Dynamic charts (pie/bar) showing:
+  - **Housing demand %**
+  - **Average rent**
+  - **Population vs Listings**
+- ✅ Responsive chart-based UI  
+- ✅ Uses mock JSON data  
+- ✅ Firebase Authentication (optional login features)  
+- ✅ Mobile-friendly responsive layout  
+
+---
+
+## 🧩 Technologies Used
+
+### 🚀 Frontend
+- **React.js**
+- **Tailwind CSS**
+- **Chart.js**
+- **React Chart.js 2**
+- **Firebase (Hosting + Authentication)**
+
+### 🔗 Backend
+- **Node.js**
+- **Express.js**
+- **MongoDB (for data persistence)**
+- **CORS & JSON Middleware**
+- **Deployed on Vercel**
+
+---
+
+## 🌐 Deployment Details
+
+| Layer         | Platform     | Purpose                        |
+|---------------|--------------|--------------------------------|
+| **Frontend**  | Firebase     | UI + Authentication            |
+| **Backend**   | Vercel       | REST API (CRUD operations)     |
+| **Database**  | MongoDB Atlas| Data storage (if connected)    |
+
+---
+
+## 🗂️ JSON Data Sample
+
+```json
+[
+  {
+    "id": 1,
+    "division": "Dhaka",
+    "demandPercent": 85,
+    "avgRent": 15000,
+    "population": 8900000,
+    "avaiableList": 420,
+    "img": "https://i.ibb.co/LhnrCyb9/dhaka1.jpg"
+  }
+]
