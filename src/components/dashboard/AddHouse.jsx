@@ -14,7 +14,7 @@ const AddHouse = () => {
         const formData = new FormData(e.target);
         const houseData = Object.fromEntries(formData.entries());
 
-        fetch("https://bangla-house-server-7mqbsvr0f-md-saidul-islam-apus-projects.vercel.app/house", {
+        fetch("http://localhost:5000/house", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
