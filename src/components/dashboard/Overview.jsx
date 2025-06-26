@@ -30,8 +30,6 @@ const HouseStatsChart = () => {
     }, []);
 
     if (loading) return <p className="text-center text-lg mt-10">Loading data...</p>;
-
-    // Group and average data by division
     const groupedData = {};
     houses.forEach((h) => {
         const key = h.division;

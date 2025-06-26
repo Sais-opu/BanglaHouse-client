@@ -28,7 +28,7 @@ const feedbacks = [
 ];
 
 const StarRating = ({ rating }) => {
-    // Show solid stars for rating, outline stars for the rest (out of 5)
+    // Show  stars 
     return (
         <div className="flex space-x-1 mb-3">
             {[...Array(5)].map((_, i) => (

@@ -1,5 +1,5 @@
 import React from "react";
-import './Home.css';  // Make sure this CSS file is created and contains the animations
+import './Home.css'; 
 import Feedback from "../Home/Feedback.jsx";
 const images = [
     "https://i.ibb.co/gZFPxX8Z/barisal2.jpg",
@@ -60,7 +60,7 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* Image slider BELOW banner, with title + description */}
+            {/* Image slider  */}
             <div className="bg-gray-100 p-6">
                 <div className="mb-6 text-center">
                     <h2 className="text-3xl font-semibold mb-2">Check your favourite house</h2>

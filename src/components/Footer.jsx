@@ -1,6 +1,6 @@
 import logo from '../assets/logo.png';
-import { NavLink } from 'react-router-dom';  // For navigating to homepage
-// import { Link } from 'react-scroll';  // For smooth scrolling
+import { NavLink } from 'react-router-dom';  
+
 
 const Footer = () => {
     return (

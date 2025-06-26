@@ -56,9 +56,6 @@ const Navbar = () => {
 
                 {/* Navbar End: Buttons */}
                 <div className="navbar-end flex items-center gap-4">
-                    {/* Dark Mode Toggle */}
-                    
-
                     {/* User Avatar */}
                     {user && user.photoURL && (
                         <div className="relative group">
