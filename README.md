@@ -10,9 +10,6 @@
 
 ---
 
-## 🔍 Niche
-
-**Real Estate Visualization** – Designed to help individuals or organizations explore and understand regional rental demand dynamics in Bangladesh.
 
 ---
 
