@@ -54,7 +54,7 @@
 |---------------|--------------|--------------------------------|
 | **Frontend**  | Firebase     | UI + Authentication            |
 | **Backend**   | Vercel       | REST API (CRUD operations)     |
-| **Database**  | MongoDB Atlas| Data storage (if connected)    |
+| **Database**  | MongoDB Atlas| Data storage     |
 
 ---
 
