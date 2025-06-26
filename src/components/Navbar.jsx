@@ -14,7 +14,7 @@ const Navbar = () => {
 
             {user && user.displayName && (
                 <>
-                    <li><NavLink to="/dashboard/rental/all-houses" className={({ isActive }) => isActive ? "bg-teal-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>Rental</NavLink></li>
+                    <li><NavLink to="/dashboard/rental/all-houses" className={({ isActive }) => isActive ? "bg-teal-800 text-white px-4 py-2 rounded-md" : "hover:bg-indigo-500 hover:underline px-4 py-2 rounded-md"}>All Houses</NavLink></li>
                 </>
             )}
         </>

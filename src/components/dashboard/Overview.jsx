@@ -17,7 +17,7 @@ const HouseStatsChart = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch("http://localhost:5000/house")
+        fetch("https://banghouse.vercel.app/house")
             .then((res) => res.json())
             .then((data) => {
                 setHouses(data);

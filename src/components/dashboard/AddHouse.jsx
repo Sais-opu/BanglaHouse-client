@@ -13,7 +13,7 @@ const AddHouse = () => {
         const formData = new FormData(e.target);
         const houseData = Object.fromEntries(formData.entries());
 
-        fetch("http://localhost:5000/house", {
+        fetch("https://banghouse.vercel.app/house", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
